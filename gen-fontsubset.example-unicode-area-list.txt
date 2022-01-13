@@ -1,0 +1,26 @@
+# Lines Starting with "U+" will be interpreted!
+# Others will be ignored.
+#
+# <Range>	<Range-Comment>
+# ex) U+0000-036F Latin-BasicMarks
+
+U+0000-036F	Latin-BasicMarks
+U+0370-03FF	Greek-Coptic
+U+0400-052F	Cyrillic
+U+1200-1252	Ethiopic
+U+13A0-13FD	Cherokee
+U+16A0-16F8	Runic
+U+200B-22F1	Mathematical
+U+22F2-2BF2	SpecialCharsEtc
+U+3000-303F	CJKSpecialChars
+U+3040-30FF	JapaneseKana
+U+3100-312F	TaiwanBopomofo
+#U+3130-318F	KoreanHangulLetter
+#U+3200-327F	KoreanSpecialChars
+U+3280-33FF	JapaneseSpecialChars
+U+4E00-9FFC	CJKUnifiedIdeographs
+#U+AC00-D7A3	KoreanHangulSyllable
+U+F900-FAFF	CJKCompatIdeographs
+U+FF00-FFEF	CJKFullHalfMarks
+
+U+3130-318F,U+3200-327F,U+AC00-D7A3	KoreanCharsUnified

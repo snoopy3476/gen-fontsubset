@@ -41,6 +41,12 @@ CSS_FILE="$FONT_FILE_WITHOUT_EXT".css
 
 
 # validation
+if [ $# == 0 ]
+then
+  printf "usage: $0 <orig-fontfile> <unicode-subset-area-listfile>\n" 1>&2
+	exit 1
+fi
+
 if ! [ -f "$FONT_FILE" ]
 then
 	printf "Font file '%s' does not exist!\n" "$FONT_FILE" 1>&2
